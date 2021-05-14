@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@color/cardBg"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:id="@+id/product_image"/>
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.65"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/name_order_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/colorBlack"
+        android:padding="@dimen/_2sdp"/>
+    <TextView
+        android:id="@+id/qty_order_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/colorlighttexttBlack"
+        android:padding="@dimen/_2sdp"/>
+    <TextView
+        android:id="@+id/price_order_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/colorlighttexttBlack"
+        android:padding="@dimen/_2sdp"/>
+    <TextView
+        android:id="@+id/variant_order_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/colorlighttexttBlack"
+        android:padding="@dimen/_2sdp"/>
+</LinearLayout>
+    <ImageView
+        android:id="@+id/delete_order_product"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_weight="0.05"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_close"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_home"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_home"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_cart"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="Settings"
+        android:actionLayout="@layout/badge_layout"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_loc"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_baseline_add_location_24"
+        android:title="Location"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="Logout"
+        app:showAsAction="always" />
+
+
+</menu>
